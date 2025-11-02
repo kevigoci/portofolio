@@ -8,7 +8,7 @@ export function Hero() {
         <div className="max-w-5xl mx-auto space-y-12">
           <div className="space-y-6 text-center">
             <div className="space-y-3">
-              <p className="text-sm text-muted-foreground uppercase tracking-wider">Software Developer</p>
+              <p className="text-sm text-muted-foreground uppercase tracking-wider">Software Engineer</p>
               <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-balance">Klevin Goci</h1>
             </div>
 
