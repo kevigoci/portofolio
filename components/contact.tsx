@@ -154,7 +154,7 @@ export function Contact() {
                     href="tel:+1234567890"
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    +1 (234) 567-890
+                    +355683445107
                   </a>
                 </div>
               </div>
