@@ -134,10 +134,10 @@ export function Contact() {
                 <div className="space-y-1">
                   <h3 className="font-semibold text-card-foreground">Email</h3>
                   <a
-                    href="mailto:klevin.goci@example.com"
+                    href="mailto:kevigoci13@gmail.com"
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    klevin.goci@example.com
+                    kevigoci13@gmail.com
                   </a>
                 </div>
               </div>
