@@ -60,7 +60,7 @@ export function Hero() {
 
           <div className="flex justify-center gap-4 pt-4">
             <a
-              href="https://github.com/klevingoci"
+              href="https://github.com/kevigoci"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -69,7 +69,7 @@ export function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://linkedin.com/in/klevingoci"
+              href="https://www.linkedin.com/in/klevin-goci-2101512b9/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
