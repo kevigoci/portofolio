@@ -69,7 +69,7 @@ export function Hero() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="https://www.linkedin.com/in/klevin-goci-2101512b9/"
+              href="https://www.linkedin.com/in/kleving"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
