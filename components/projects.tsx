@@ -1,33 +1,14 @@
 import { Card } from "@/components/ui/card"
+import { ExternalLink } from "lucide-react"
 
 const projects = [
   {
-    title: "Task Management System",
+    title: "Deluxo Marketplace",
     description:
-      "A collaborative task management application with real-time updates. Built using Java Spring Boot for the backend and modern web technologies for a responsive frontend.",
-    technologies: ["Java", "Spring Boot", "HTML", "CSS", "JavaScript"],
-    image: "/task-management-dashboard.png",
-  },
-  {
-    title: "Inventory Management System",
-    description:
-      "A desktop application for managing inventory and tracking stock levels. Built with C# and .NET framework, featuring a clean WPF interface and SQL Server database integration.",
-    technologies: ["C#", ".NET", "WPF", "SQL Server"],
-    image: "/inventory-management-software.png",
-  },
-  {
-    title: "Weather Forecast App",
-    description:
-      "A responsive weather application that provides real-time weather data and forecasts. Features location-based weather, interactive maps, and detailed meteorological information.",
-    technologies: ["JavaScript", "HTML", "CSS", "API Integration"],
-    image: "/weather-forecast-app.png",
-  },
-  {
-    title: "RESTful API Service",
-    description:
-      "A scalable RESTful API service built with Python FastAPI. Includes authentication, rate limiting, comprehensive documentation, and automated testing.",
-    technologies: ["Python", "FastAPI", "PostgreSQL", "Docker"],
-    image: "/api-documentation-interface.png",
+      "A full-featured e-commerce platform for electronics and tech products. Features product search, category filtering, shopping cart, user authentication, and secure payment processing. Live and serving customers across Albania.",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Node.js"],
+    image: "/deluxo-marketplace.png",
+    link: "https://www.deluxomarketplace.live/",
   },
 ]
 
@@ -54,7 +35,20 @@ export function Projects() {
                 />
               </div>
               <div className="p-6 space-y-4">
-                <h3 className="text-xl font-bold text-card-foreground">{project.title}</h3>
+                <div className="flex items-center justify-between">
+                  <h3 className="text-xl font-bold text-card-foreground">{project.title}</h3>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:text-primary/80 transition-colors"
+                      aria-label="Visit website"
+                    >
+                      <ExternalLink className="w-5 h-5" />
+                    </a>
+                  )}
+                </div>
                 <p className="text-muted-foreground leading-relaxed text-pretty">{project.description}</p>
 
                 <div className="flex flex-wrap gap-2">
